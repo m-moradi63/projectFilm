@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Corben&family=Griffy&family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Corben&family=Griffy&family=Montserrat:ital,wght@0,600;1,700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/a7ba74ec2b.js" crossorigin="anonymous"></script>
     <link href= "/dist/output.css" rel="stylesheet">
     <link href="./tailwindstyle.css" rel="stylesheet">
@@ -17,13 +17,13 @@
     
     <title>project</title>
 </head>
-<body>
-   <div class="contain">
-    <nav class="flex items-center w-full justify-between bg-gradient-to-r from-black to-[#5E47A1]/50 ">
-        <p class="text-yellow-400 #facc15  font-secondary text-2xl w-1/20
-        font-size: 2em ml-7 ">DRAMATIC</p>
-        <ul class="font-primary flex justify-between items-center w-1/4 mr-48 text-griffty">
-            <li style="font-family:Montserrat" ><a href="">HOME</a></li>
+<body >
+   <div class="h-full w-screen h-fit bg-cover bg-center absolute z-4  " style="background-image: url(/img/Movie\ Wallpaper.png);" >
+    <nav class="flex items-center w-full justify-between bg-gradient-to-r from-black to-[#5E47A1]/50" >
+        <p class="text-yellow-400 #facc15   text-2xl w-1/20
+        font-size: 2em ml-7 " style="font-family: griffy;">DRAMATIC</p>
+        <ul class="text-white flex justify-between items-center w-1/4 mr-48 text-griffty" style="font-family:Montserrat">
+            <div class="mt-3"><li  ><a href="">HOME</a></li> <img src="/img/Rectangle 21.png" alt="" class="ml-4"></div>
             <li><a href="">TV SHOW</a></li>
             <li><a href="">MOVIES</a></li>
             <li ><a href="">NEW</a></li>
@@ -32,33 +32,56 @@
            
        <div class="flex justify-between w-2/6 items-center"> 
          <div class="bg-[#3B567D] rounded-2xl " >
-             <input type="text" placeholder="SEARCH " class="bg-[#3B567D] rounded-2xl"  ></input>
+             <input type="text" placeholder="SEARCH " class="bg-[#3B567D] rounded-2xl" style="font-family:Montserrat" ></input>
              <span class="fa fa-search w-2/3  inline" ></span>
-         </div>
-         <i class="fa fa-light fa-gift" ></i>
-         <i class="fa fa-light fa-bell" ></i>
+         </div >
+         <i class="fa  fa-gift text-white" ></i>
+         <i class="fa-regular fa-bell text-white" ></i>
          <img src="/img/Ellipse 1.png" alt="" height="35em">
          <!--  -->
       </div>
     </nav>
-    
-    
-   <!--  
-    <main>
-        <div class="container">
-            <nav>
+    <main class="flex">
+        <ul  class="flex flex-col items-center mt-4 w-16 rounded-r-xl h-60 bg-gradient-to-b from-[#5E47A1] via-[#5436A9] to-[#130B29]" >
+            <li class="fa  fa-light fa-user-group fa-lg text-white mb-12 mt-8  "></li>
+            <li class="fa-solid fa-list text-white mb-12 fa-lg " ></li>
+            <li class="fa fa-circle-arrow-down text-white mb-12 fa-lg " ></li>
+            <li class="fa fa-gear text-white mb-12 fa-lg " ></li>
             
-            </nav>
-            <div class="navcolumn">
+          
+        </ul>
+          <div class="flex-col items-center w-[40%] ml-8 text-white">
+            <img src="/img/image 1.png" alt="">
+            <p class="text-sm">Ved and Tara fall in love while on a holiday in Corsica and decide to keep their<br> real identities undisclosed. Tara returns to Delhi and meets a new Ved, who is <br>trying to discover his true self.</p>
+            <p class="mt-6 text-[#FF2E00] w-[10%]">GENRES </p>
+            <p class="w-[40%]">Romance, Drama </p>
+            <button class="bg-[#5436A9] rounded-2xl w-[20%] h-12 ">WATCH<i class="fa-solid fa-play bg-[#5436A9] text-white ml-4" ></i></button>
+            <button class="bg-[#5C5C5C] rounded-2xl w-[20%] h-12 ">WATCH<i class="fa-solid fa-plus bg-[#5C5C5C] text-white ml-4" ></i></button>
+            <div class="flex justify-between items-center w-48 mt-4 font-[Montserrat]" >
+                <img src="/img/image 5.png" alt="">
+                <p class="text-[#FFC907]" style="font-family: Montserrat;">7.3</p>
+                <button class="border">U/A</button>
+                <button class="border">4K</button>
+                <p>2015</p>
+            </div>  
+          <div>
 
-            </div>
-            <div class="maincontainer1">
-
-            </div>
         </div>
-    </main> -->
+        
+     </div>
+     
+    </main>
+  
+    
+   
 </div>
-
+<div class="h-full w-screen h-fit bg-cover bg-center absolute mt-0 ml-0 opacity-100 " style=" z-index:1;">
+    <img src="img/Black Gradient.png" alt="">
+    
+</div>
 </body>
+
+
+
 <script src="https://cdn.tailwindcss.com"></script>
 </html>
